@@ -1,6 +1,7 @@
 import React from 'react';
 
-const TopServices = () => {
+const TopServices = (props) => {
+
     return (
         <div>
             <h2>Top Services Page</h2>

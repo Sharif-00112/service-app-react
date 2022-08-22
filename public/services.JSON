@@ -1,0 +1,52 @@
+[
+    {
+       "serviceKey":10101,
+       "serviceTitle":"AWS A-Z Course",
+       "serviceCost":130,
+       "topService":true,
+       "serviceDetails":"AWS is architected to be the most flexible and secure cloud computing environment available today. Our core infrastructure is built to satisfy the security requirements for the military, global banks, and other high-sensitivity organizations.",
+       "serviceDuration":3,
+       "serviceTaken":461,
+       "serviceImg":"1"
+    },
+    {
+       "serviceKey":10102,
+       "serviceTitle":"React Development",
+       "serviceCost":150,
+       "topService":false,
+       "serviceDetails":"React is a JavaScript-based UI development library. Facebook and an open-source developer community run it. Although React is a library rather than a language, it is widely used in web development. The library first appeared in May 2013 and is now one of the most commonly used frontend libraries for web development.",
+       "serviceDuration":5,
+       "serviceTaken":371,
+       "serviceImg":"2"
+    },
+    {
+       "serviceKey":10103,
+       "serviceTitle":"Machine Learning",
+       "serviceCost":110,
+       "topService":true,
+       "serviceDetails":"Machine learning is a branch of artificial intelligence (AI) and computer science which focuses on the use of data and algorithms to imitate the way that humans learn, gradually improving its accuracy.",
+       "serviceDuration":6,
+       "serviceTaken":731,
+       "serviceImg":"3"
+    },
+    {
+       "serviceKey":10104,
+       "serviceTitle":"Laravel",
+       "serviceCost":99,
+       "topService":false,
+       "serviceDetails":"Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching. Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality.",
+       "serviceDuration":2,
+       "serviceTaken":329,
+       "serviceImg":"4"
+    },
+    {
+       "serviceKey":10105,
+       "serviceTitle":"Angular",
+       "serviceCost":220,
+       "topService":true,
+       "serviceDetails":"Angular is a platform and framework for building single-page client applications using HTML and TypeScript. Angular is written in TypeScript. It implements core and optional functionality as a set of TypeScript libraries that you import into your applications.",
+       "serviceDuration":8,
+       "serviceTaken":559,
+       "serviceImg":"5"
+    }
+ ]

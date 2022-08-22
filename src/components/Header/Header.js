@@ -2,17 +2,17 @@ import React from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 
-const Header = () => {
+const Header = () => { 
     return (
         <div className='navbar'>
-            <div className="">
+            <div className="navLinks">
                 <Link to="/home">Home</Link>
                 <Link to="/services">Services</Link>
                 <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
             </div>
-            <div className="login">
-                <Link to="/login">Login</Link>
+            <div className="">
+                <button className='custom-btn'><Link to="/login">Login</Link></button>
             </div>
         </div>
     );

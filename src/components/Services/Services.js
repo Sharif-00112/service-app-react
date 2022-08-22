@@ -1,12 +1,14 @@
 import React from 'react';
-import AllServices from '../AllServices/AllServices';
-import TopServices from '../TopServices/TopServices';
+import AllServices from '../AllServices/AllServices'
+import TopServices from '../TopServices/TopServices'
 
 const Services = () => {
     return (
         <div>
-            <h2>Services Page</h2>
+            <h3>Top Services</h3>
             <TopServices></TopServices>
+
+            <h3>All Services</h3>
             <AllServices></AllServices>
         </div>
     );
