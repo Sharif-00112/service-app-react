@@ -16,7 +16,8 @@ const Service = (props) => {
                 <div className="card-footer">
                     <h6 className=''>Course Fee ${serviceCost}</h6>
                     <p>Course Duration: {serviceDuration} months</p>
-                    <small className="text-muted">Current Students: {serviceTaken}</small>
+                    <small className="text-muted">Current Students: {serviceTaken}</small><br />
+                    <button className='custom-btn p-1 ps-3 pe-3 mt-2'>Enroll Course</button>
                 </div>
             </div>
         </div>
