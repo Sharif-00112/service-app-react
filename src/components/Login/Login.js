@@ -3,7 +3,7 @@ import React from 'react';
 const Login = () => {
     return (
         <div>
-            <h2>Login Page</h2>
+            <h3 className='pt-5'>Login-Registration Coming Soon...</h3> <hr className='w-25 mx-auto'/>
         </div>
     );
 };

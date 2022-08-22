@@ -1,16 +1,23 @@
 import React  from 'react';
 import './Service.css'
-import img from '../../images/services/service-1.jpg'
 
 const Service = (props) => {
-    const {serviceKey, serviceCost, serviceDetails, serviceDuration, serviceImg, serviceTaken, serviceTitle, topService} = props.service;
+    const {serviceCost, serviceDetails, serviceDuration, serviceImg, serviceTaken, serviceTitle} = props.service;
     return (
-        <div className='container'>
-            <div className="image">
-                <img src={img} alt="" />
-            </div>
-            <div className="details">
-                <h3>Course Title: {serviceTitle}</h3>
+        <div className="col ">
+            <div className="card h-100">
+                <img src={serviceImg} className="card-img-top p-3" alt="..."/>
+                <div className="card-body">
+                    <hr />
+                    <h3 className="card-title">{serviceTitle}</h3>
+                    <hr />
+                    <p class="card-text">{serviceDetails}</p>
+                </div>
+                <div className="card-footer">
+                    <h6 className=''>Course Fee ${serviceCost}</h6>
+                    <p>Course Duration: {serviceDuration} months</p>
+                    <small className="text-muted">Current Students: {serviceTaken}</small>
+                </div>
             </div>
         </div>
     );

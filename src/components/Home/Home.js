@@ -6,7 +6,7 @@ import Services from '../Services/Services';
 const Home = () => {
     return (
         <div>
-            <h2>This is Home Page</h2>
+            <h2 className='pt-5 pb-5'>--Explore the trendy and exciting courses with <span style={{color: 'tomato', fontSize: '35px'}}>LearnEasy</span>--</h2>
 
             <div className="services">
                 <Services></Services>

@@ -12,7 +12,7 @@ const AllServices = () => {
 
     // console.log(services);
     return (
-        <div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 m-3">
             {
                 services.map(service => <Service key={service.serviceKey} service={service}></Service>)
             }
