@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 const Header = () => { 
     return (
         <div className='navbar'>
+            <div className="">
+                <h2 className='page-name'>LearnEasy</h2>
+            </div>
             <div className="navLinks">
                 <Link to="/home">Home</Link>
                 <Link to="/services">Courses</Link>

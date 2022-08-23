@@ -5,6 +5,13 @@
     justify-content: space-around;
 }
 
+.page-name{
+    display: inline;
+    padding: 1px 5px;
+    color: tomato;
+    border: 1px solid whitesmoke;
+}
+
 .navbar a{
     text-decoration: none;
     color: whitesmoke;
